@@ -105,12 +105,13 @@
 
 - Forest Symphony: [https://special.ycam.jp/interlab/projects/forestsymphony.html](https://special.ycam.jp/interlab/projects/forestsymphony.html)
 - Pulsum-Plantae: [https://github.com/Lessnullvoid/Pulsum-Plantae](https://github.com/Lessnullvoid/Pulsum-Plantae)
-- and more... [detail](https://docs.google.com/presentation/d/1Tm0e-mBNrTchN6YlGpvvomUZfy79yOtrTSNHG-l_jFg/edit#slide=id.g148acf8fd66_1_54)
+- [and more...](https://docs.google.com/presentation/d/1Tm0e-mBNrTchN6YlGpvvomUZfy79yOtrTSNHG-l_jFg/edit#slide=id.g148acf8fd66_1_54)
 
 ## Author
 
-[twitter](https://twitter.com/kyu_yukirinrin)
-[website](https://untamable.work)
+twitter: https://twitter.com/kyu_yukirinrin
+
+website: https://untamable.work
 
 ## Licence
 
