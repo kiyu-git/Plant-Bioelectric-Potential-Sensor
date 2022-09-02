@@ -9,9 +9,19 @@ image or gif
 開発した植物生体電位測定器の回路図等をまとめています。
 なお、このリポジトリは、『[植物生体電位測定をオープンにするプロジェクト](https://docs.google.com/presentation/d/1Tm0e-mBNrTchN6YlGpvvomUZfy79yOtrTSNHG-l_jFg/edit?usp=sharing)』の一部です。
 
-- [回路図]()
-- [Eagle ファイル]()
-- [BOM ファイル]()
+植物生体電位測定器は電源・ADC モジュールと信号処理モジュールから構成されています。
+
+**電源・ADC モジュール**
+
+- [回路図](https://github.com/kiyu-git/Plant-Bioelectric-Potential-Sensor/tree/main/Power%20and%20ADC%20Module/images)
+- [Eagle ファイル](https://github.com/kiyu-git/Plant-Bioelectric-Potential-Sensor/tree/main/Power%20and%20ADC%20Module/Eagle)
+- [CAM ファイル](https://github.com/kiyu-git/Plant-Bioelectric-Potential-Sensor/tree/main/Power%20and%20ADC%20Module/CAMOutputs_power_module/GerberFiles)
+
+**信号処理モジュール**
+
+- [回路図](https://github.com/kiyu-git/Plant-Bioelectric-Potential-Sensor/tree/main/Signal%20Processing%20Module/images)
+- [Eagle ファイル](https://github.com/kiyu-git/Plant-Bioelectric-Potential-Sensor/tree/main/Signal%20Processing%20Module/Eagle)
+- [CAM ファイル](https://github.com/kiyu-git/Plant-Bioelectric-Potential-Sensor/tree/main/Signal%20Processing%20Module/CAMOutputs_sp_module/GerberFiles)
 
 ## Requirement
 
@@ -71,9 +81,20 @@ image or gif
 
 ## Usage
 
-この植物生体電位測定器を用いた植物生体電位の測定については[こちら](https://docs.google.com/presentation/d/1Tm0e-mBNrTchN6YlGpvvomUZfy79yOtrTSNHG-l_jFg/edit#slide=id.g15184a93673_0_264)を参考にしてください。
+『[植物生体電位測定をオープンにするプロジェクト](https://docs.google.com/presentation/d/1Tm0e-mBNrTchN6YlGpvvomUZfy79yOtrTSNHG-l_jFg/edit?usp=sharing)に関連する[他のリポジトリ](https://github.com/kiyu-git/Plant-Bioelectric-Potential-Sensor#related_repository)と組み合わせることによって、植物生体電位を測定することが可能です。
+
+植物生体電位の測定の詳細については[こちら](https://docs.google.com/presentation/d/1Tm0e-mBNrTchN6YlGpvvomUZfy79yOtrTSNHG-l_jFg/edit#slide=id.g15184a93673_0_264)を参考にしてください。
+
+image
 
 ## Features
+
+## Related repository
+
+- 植物生体電位解析器 : https://github.com/kiyu-git/Plant-Bioelectric-Potential-Sensor
+- 測定アプリケーション : https://github.com/kiyu-git/-Arduino-Serial-Plot-Recorder
+- 解析アプリケーション : https://github.com/kiyu-git/Arduino-Sensor-Data-Viewer
+- 照明スイッチの自動化 : https://github.com/kiyu-git/Arduino-Python-Serial-Control-Example
 
 ## Reference
 
