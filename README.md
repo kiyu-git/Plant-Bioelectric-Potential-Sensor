@@ -2,7 +2,7 @@
 
 植物生体電位測定器
 
-image or gif
+![Plant-Bioelectric-Potential-Sensor](/images/Plant-Bioelectric-Potential-Sensor.JPG)
 
 ## Overview
 
@@ -22,6 +22,10 @@ image or gif
 - [回路図](https://github.com/kiyu-git/Plant-Bioelectric-Potential-Sensor/tree/main/Signal%20Processing%20Module/images)
 - [Eagle ファイル](https://github.com/kiyu-git/Plant-Bioelectric-Potential-Sensor/tree/main/Signal%20Processing%20Module/Eagle)
 - [CAM ファイル](https://github.com/kiyu-git/Plant-Bioelectric-Potential-Sensor/tree/main/Signal%20Processing%20Module/CAMOutputs_sp_module/GerberFiles)
+
+<img src="./Power and ADC Module/images/circuit_power_module.png"  width="45%"/> <img src="./Signal Processing Module/images/circuit_sp_module.png"  width="45%"/>
+<img src="./images/device_PCB.JPG"  width="45%"/> <img src="./images/device_modules.jpeg"  width="45%"/>
+<img src="./images/device_combine.jpeg"  width="45%"/> <img src="./images/device_with_box.JPG"  width="25%"/>
 
 ## Requirement
 
@@ -81,11 +85,12 @@ image or gif
 
 ## Usage
 
-『[植物生体電位測定をオープンにするプロジェクト](https://docs.google.com/presentation/d/1Tm0e-mBNrTchN6YlGpvvomUZfy79yOtrTSNHG-l_jFg/edit?usp=sharing)に関連する[他のリポジトリ](https://github.com/kiyu-git/Plant-Bioelectric-Potential-Sensor#related_repository)と組み合わせることによって、植物生体電位を測定することが可能です。
+『[植物生体電位測定をオープンにするプロジェクト](https://docs.google.com/presentation/d/1Tm0e-mBNrTchN6YlGpvvomUZfy79yOtrTSNHG-l_jFg/edit?usp=sharing)に関連する[他のリポジトリ](https://github.com/kiyu-git/Plant-Bioelectric-Potential-Sensor#related-repository)と組み合わせることによって、植物生体電位を測定することが可能です。
 
 植物生体電位の測定の詳細については[こちら](https://docs.google.com/presentation/d/1Tm0e-mBNrTchN6YlGpvvomUZfy79yOtrTSNHG-l_jFg/edit#slide=id.g15184a93673_0_264)を参考にしてください。
 
-image
+植物生体電位測定の例
+![Plant-Bioelectric-Potential-Mearurement](/images/Plant-Bioelectric-Potential-Mearurement.jpeg)
 
 ## Features
 
