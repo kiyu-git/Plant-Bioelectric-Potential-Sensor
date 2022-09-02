@@ -87,21 +87,19 @@
 
 ## Usage
 
-『[植物生体電位測定をオープンにするプロジェクト](https://docs.google.com/presentation/d/1Tm0e-mBNrTchN6YlGpvvomUZfy79yOtrTSNHG-l_jFg/edit?usp=sharing)に関連する[他のリポジトリ](https://github.com/kiyu-git/Plant-Bioelectric-Potential-Sensor#related-repository)と組み合わせることによって、植物生体電位を測定することが可能です。
+このリポジトリは、『[植物生体電位測定をオープンにするプロジェクト](https://docs.google.com/presentation/d/1Tm0e-mBNrTchN6YlGpvvomUZfy79yOtrTSNHG-l_jFg/edit?usp=sharing)』の一部です。
 
-植物生体電位の測定の詳細については[こちら](https://docs.google.com/presentation/d/1Tm0e-mBNrTchN6YlGpvvomUZfy79yOtrTSNHG-l_jFg/edit#slide=id.g15184a93673_0_264)を参考にしてください。
-
-植物生体電位測定の例
-![Plant-Bioelectric-Potential-Mearurement](/images/Plant-Bioelectric-Potential-Mearurement.jpeg)
-
-## Features
-
-## Related repository
+『[植物生体電位測定をオープンにするプロジェクト](https://docs.google.com/presentation/d/1Tm0e-mBNrTchN6YlGpvvomUZfy79yOtrTSNHG-l_jFg/edit?usp=sharing)に関連する以下のリポジトリと組み合わせることによって、植物生体電位を測定することが可能です。
 
 - 植物生体電位解析器 : https://github.com/kiyu-git/Plant-Bioelectric-Potential-Sensor
 - 測定アプリケーション : https://github.com/kiyu-git/-Arduino-Serial-Plot-Recorder
 - 解析アプリケーション : https://github.com/kiyu-git/Arduino-Sensor-Data-Viewer
 - 照明スイッチの自動化 : https://github.com/kiyu-git/Arduino-Python-Serial-Control-Example
+
+植物生体電位の測定の詳細については[こちら](https://docs.google.com/presentation/d/1Tm0e-mBNrTchN6YlGpvvomUZfy79yOtrTSNHG-l_jFg/edit#slide=id.g15184a93673_0_264)を参考にしてください。
+
+植物生体電位測定の例
+![Plant-Bioelectric-Potential-Mearurement](https://github.com/kiyu-git/Plant-Bioelectric-Potential-Sensor/raw/main/images/Plant-Bioelectric-Potential-Mearurement.jpeg)
 
 ## Reference
 
