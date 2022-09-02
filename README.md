@@ -7,9 +7,11 @@
 ## Overview
 
 開発した植物生体電位測定器の回路図等をまとめています。
-なお、このリポジトリは、『[植物生体電位測定をオープンにするプロジェクト](https://docs.google.com/presentation/d/1Tm0e-mBNrTchN6YlGpvvomUZfy79yOtrTSNHG-l_jFg/edit?usp=sharing)』の一部です。
+信号処理ダイアグラムや設計方針については[こちら](https://docs.google.com/presentation/d/1Tm0e-mBNrTchN6YlGpvvomUZfy79yOtrTSNHG-l_jFg/edit#slide=id.g15184a93673_0_74)にまとまっています。
 
 植物生体電位測定器は電源・ADC モジュールと信号処理モジュールから構成されています。
+
+なお、このリポジトリは、『[植物生体電位測定をオープンにするプロジェクト](https://docs.google.com/presentation/d/1Tm0e-mBNrTchN6YlGpvvomUZfy79yOtrTSNHG-l_jFg/edit?usp=sharing)』の一部です。
 
 **電源・ADC モジュール**
 
@@ -108,6 +110,8 @@
 - [and more...](https://docs.google.com/presentation/d/1Tm0e-mBNrTchN6YlGpvvomUZfy79yOtrTSNHG-l_jFg/edit#slide=id.g148acf8fd66_1_54)
 
 ## Author
+
+質問等は twitter または[Issues](https://github.com/kiyu-git/Plant-Bioelectric-Potential-Sensor/issues)より
 
 twitter: https://twitter.com/kyu_yukirinrin
 
