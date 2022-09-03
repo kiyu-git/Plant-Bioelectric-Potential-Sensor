@@ -11,7 +11,8 @@
 
 なお、このリポジトリは、『[植物生体電位測定をオープンにするプロジェクト](https://docs.google.com/presentation/d/1Tm0e-mBNrTchN6YlGpvvomUZfy79yOtrTSNHG-l_jFg/edit?usp=sharing)』の一部です。
 
-[こちら](https://kiyu-shop.booth.pm/items/4141049)で PCB 基盤およびパーツのセットを販売しています。
+[こちら](https://kiyu-shop.booth.pm/items/4141049)からプロジェクトへの寄付、PCB 基盤およびパーツのセットの購入ができます。
+継続的なプロジェクト維持のため、ぜひ寄付をお願いいたします。
 
 **電源・ADC モジュール**
 
@@ -106,6 +107,11 @@
 - Forest Symphony: [https://special.ycam.jp/interlab/projects/forestsymphony.html](https://special.ycam.jp/interlab/projects/forestsymphony.html)
 - Pulsum-Plantae: [https://github.com/Lessnullvoid/Pulsum-Plantae](https://github.com/Lessnullvoid/Pulsum-Plantae)
 - [and more...](https://docs.google.com/presentation/d/1Tm0e-mBNrTchN6YlGpvvomUZfy79yOtrTSNHG-l_jFg/edit#slide=id.g148acf8fd66_1_54)
+
+## Donation
+
+[こちら](https://kiyu-shop.booth.pm/items/4141049)からプロジェクトへの寄付ができます。
+継続的なプロジェクト維持のため、ぜひ寄付をお願いいたします。
 
 ## Author
 
