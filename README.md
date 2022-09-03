@@ -11,7 +11,7 @@
 
 なお、このリポジトリは、『[植物生体電位測定をオープンにするプロジェクト](https://docs.google.com/presentation/d/1Tm0e-mBNrTchN6YlGpvvomUZfy79yOtrTSNHG-l_jFg/edit?usp=sharing)』の一部です。
 
-[こちら](https://kiyu-shop.booth.pm/items/4141049)de PCB 基盤およびパーツのセットを販売しています。
+[こちら](https://kiyu-shop.booth.pm/items/4141049)で PCB 基盤およびパーツのセットを販売しています。
 
 **電源・ADC モジュール**
 
