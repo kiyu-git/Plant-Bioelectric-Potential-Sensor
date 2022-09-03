@@ -6,12 +6,12 @@
 
 ## Overview
 
-開発した植物生体電位測定器の回路図等をまとめています。
+開発した植物生体電位測定器の回路図等をまとめています。植物生体電位測定器は電源・ADC モジュールと信号処理モジュールから構成されています。
 信号処理ダイアグラムや設計方針については[こちら](https://docs.google.com/presentation/d/1Tm0e-mBNrTchN6YlGpvvomUZfy79yOtrTSNHG-l_jFg/edit#slide=id.g15184a93673_0_74)にまとまっています。
 
-植物生体電位測定器は電源・ADC モジュールと信号処理モジュールから構成されています。
-
 なお、このリポジトリは、『[植物生体電位測定をオープンにするプロジェクト](https://docs.google.com/presentation/d/1Tm0e-mBNrTchN6YlGpvvomUZfy79yOtrTSNHG-l_jFg/edit?usp=sharing)』の一部です。
+
+[こちら](https://kiyu-shop.booth.pm/items/4141049)de PCB 基盤およびパーツのセットを販売しています。
 
 **電源・ADC モジュール**
 
