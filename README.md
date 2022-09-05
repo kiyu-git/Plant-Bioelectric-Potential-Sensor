@@ -126,3 +126,5 @@ website: https://untamable.work
 ## Licence
 
 [GPL-3.0 license](https://github.com/kiyu-git/Plant-Bioelectric-Potential-Sensor/blob/main/LICENSE)
+
+※ 商用利用を希望される場合は twitter DM よりいただけると幸いです。
