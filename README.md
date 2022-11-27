@@ -18,23 +18,21 @@
 
 - [回路図](https://github.com/kiyu-git/Plant-Bioelectric-Potential-Sensor/tree/main/Power%20and%20ADC%20Module/images)
 - [Eagle ファイル](https://github.com/kiyu-git/Plant-Bioelectric-Potential-Sensor/tree/main/Power%20and%20ADC%20Module/Eagle)
-- [CAM ファイル（v1.0）](./v1.0/Power%20and%20ADC%20Module/CAMOutputs_power_module/GerberFiles)
 
 **信号処理モジュール**
 
 - [回路図](https://github.com/kiyu-git/Plant-Bioelectric-Potential-Sensor/tree/main/Signal%20Processing%20Module/images)
 - [Eagle ファイル](https://github.com/kiyu-git/Plant-Bioelectric-Potential-Sensor/tree/main/Signal%20Processing%20Module/Eagle)
-- [CAM ファイル（v1.0）](./v1.0/Signal%20Processing%20Module/CAMOutputs_sp_module/GerberFiles)
 
 <img src="./Power and ADC Module/images/circuit_power_module.png"  width="45%"/> <img src="./Signal Processing Module/images/circuit_sp_module.png"  width="45%"/>
-<img src="./images/device_PCB.JPG"  width="45%"/> <img src="./images/device_modules.jpeg"  width="45%"/>
-<img src="./images/device_combine.jpeg"  width="45%"/> <img src="./images/device_with_box.JPG"  width="25%"/>
+<img src="./images/device_PCB.JPG"  width="45%"/> <img src="./images/device_modules.JPG"  width="45%"/>
+<img src="./images/device_combine.jpeg"  width="45%"/> <img src="./images/device_with_box.JPG"  width="45%"/>
 
 ## Requirement
 
 植物生体電位測定器の組み立てに必要な部品一覧
 
-※ バージョンによって、パーツの番号が異なります。信号処理モジュールの基板の LED が LED2 と印字されている場合は[こちら](./v1.0/README.md)のパーツ番号を参照してください。
+※ バージョンによって、パーツの番号が異なります。信号処理モジュールの基板の LED が LED2 と印字されている場合は[こちら](./archive/v1.0/README.md)のパーツ番号を参照してください。
 
 | 測定モジュール |       |                                       |                                                       |
 | -------------- | ----- | ------------------------------------- | ----------------------------------------------------- |
