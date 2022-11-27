@@ -13598,9 +13598,9 @@ V_r: 100K  → G = 2</text>
 <attribute name="VALUE" x="99.06" y="60.96" size="1.778" layer="96"/>
 </instance>
 <instance part="IC1" gate="P" x="96.52" y="66.04" smashed="yes"/>
-<instance part="R14" gate="G$1" x="99.06" y="55.88" smashed="yes">
-<attribute name="NAME" x="95.25" y="57.3786" size="1.778" layer="95"/>
-<attribute name="VALUE" x="100.33" y="57.658" size="1.778" layer="96"/>
+<instance part="R14" gate="G$1" x="104.14" y="55.88" smashed="yes">
+<attribute name="NAME" x="100.33" y="57.3786" size="1.778" layer="95"/>
+<attribute name="VALUE" x="105.41" y="57.658" size="1.778" layer="96"/>
 </instance>
 <instance part="R16" gate="G$2" x="88.9" y="43.18" smashed="yes" rot="R90">
 <attribute name="NAME" x="85.344" y="35.052" size="1.778" layer="95" rot="R90"/>
@@ -13832,13 +13832,11 @@ V_r: 100K  → G = 2</text>
 </net>
 <net name="RAW_SIGNAL" class="0">
 <segment>
-<wire x1="106.68" y1="66.04" x2="106.68" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="104.14" y1="66.04" x2="106.68" y2="66.04" width="0.1524" layer="91"/>
-<junction x="106.68" y="66.04"/>
-<wire x1="106.68" y1="66.04" x2="109.22" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="66.04" x2="109.22" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="104.14" y1="66.04" x2="109.22" y2="66.04" width="0.1524" layer="91"/>
+<junction x="109.22" y="66.04"/>
 <pinref part="R10" gate="G$1" pin="1"/>
 <pinref part="IC1" gate="B" pin="OUT"/>
-<wire x1="104.14" y1="55.88" x2="106.68" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="R14" gate="G$1" pin="2"/>
 </segment>
 </net>
@@ -13852,16 +13850,6 @@ V_r: 100K  → G = 2</text>
 <pinref part="SUPPLY17" gate="G$1" pin="VCC"/>
 <wire x1="88.9" y1="86.36" x2="91.44" y2="86.36" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="A" pin="+IN"/>
-</segment>
-</net>
-<net name="N$16" class="0">
-<segment>
-<pinref part="R5" gate="G$1" pin="2"/>
-<wire x1="111.76" y1="129.54" x2="116.84" y2="129.54" width="0.1524" layer="91"/>
-<pinref part="R13" gate="G$1" pin="2"/>
-<wire x1="116.84" y1="124.46" x2="116.84" y2="129.54" width="0.1524" layer="91"/>
-<junction x="116.84" y="129.54"/>
-<wire x1="124.46" y1="129.54" x2="116.84" y2="129.54" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$15" class="0">
@@ -13929,7 +13917,7 @@ V_r: 100K  → G = 2</text>
 <segment>
 <pinref part="IC1" gate="B" pin="-IN"/>
 <wire x1="88.9" y1="63.5" x2="88.9" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="88.9" y1="55.88" x2="93.98" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="55.88" x2="99.06" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="R14" gate="G$1" pin="1"/>
 <pinref part="R16" gate="G$2" pin="P$3"/>
 <wire x1="88.9" y1="55.88" x2="88.9" y2="50.8" width="0.1524" layer="91"/>
@@ -13986,11 +13974,33 @@ V_r: 100K  → G = 2</text>
 <segment>
 <pinref part="R6" gate="G$1" pin="1"/>
 <wire x1="45.72" y1="68.58" x2="48.26" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="68.58" x2="45.72" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="91.44" x2="76.2" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="91.44" x2="76.2" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="104.14" x2="124.46" y2="104.14" width="0.1524" layer="91"/>
+<pinref part="R5" gate="G$1" pin="2"/>
+<wire x1="111.76" y1="129.54" x2="116.84" y2="129.54" width="0.1524" layer="91"/>
+<pinref part="R13" gate="G$1" pin="2"/>
+<wire x1="116.84" y1="124.46" x2="116.84" y2="129.54" width="0.1524" layer="91"/>
+<junction x="116.84" y="129.54"/>
+<wire x1="124.46" y1="129.54" x2="116.84" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="104.14" x2="124.46" y2="129.54" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="104,1,78.74,137.16,IC2,V+,+5V,,,"/>
+<approved hash="104,1,78.74,121.92,IC2,V-,-5V,,,"/>
+<approved hash="104,1,96.52,73.66,IC1P,V+,+5V,,,"/>
+<approved hash="104,1,96.52,58.42,IC1P,V-,-5V,,,"/>
+<approved hash="113,1,185.742,36.83,LED,,,,,"/>
+<approved hash="113,1,198.357,57.3761,JP1,,,,,"/>
+<approved hash="113,1,24.638,129.54,U$1,,,,,"/>
+<approved hash="113,1,130.071,89.431,FRAME1,,,,,"/>
+<approved hash="113,1,130.071,89.431,FRAME2,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>
