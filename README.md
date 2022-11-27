@@ -86,6 +86,10 @@
 |            |       | 銅線（3 本）             |     |
 |            |       | ワニ口クリップ（3 個）   |     |
 
+### Box
+
+アクリル厚 2mm で設計
+
 ## Usage
 
 このリポジトリは、『[植物生体電位測定をオープンにするプロジェクト](https://docs.google.com/presentation/d/1Tm0e-mBNrTchN6YlGpvvomUZfy79yOtrTSNHG-l_jFg/edit?usp=sharing)』の一部です。
