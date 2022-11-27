@@ -57,3 +57,4 @@ eagle.epf
 # End of https://www.toptal.com/developers/gitignore/api/eagle
 
 **/.DS_Store
+_WorkSpace
