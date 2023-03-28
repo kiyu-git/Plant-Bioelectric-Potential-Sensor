@@ -1,3 +1,5 @@
+[日本語](/) | [English](/README-en.md)
+
 # Plant Bioelectric Potential Sensor
 
 植物生体電位測定器
@@ -94,7 +96,7 @@
 
 このリポジトリは、『[植物生体電位測定をオープンにするプロジェクト](https://docs.google.com/presentation/d/1Tm0e-mBNrTchN6YlGpvvomUZfy79yOtrTSNHG-l_jFg/edit?usp=sharing)』の一部です。
 
-『[植物生体電位測定をオープンにするプロジェクト](https://docs.google.com/presentation/d/1Tm0e-mBNrTchN6YlGpvvomUZfy79yOtrTSNHG-l_jFg/edit?usp=sharing)に関連する以下のリポジトリと組み合わせることによって、植物生体電位を測定することが可能です。
+『[植物生体電位測定をオープンにするプロジェクト](https://docs.google.com/presentation/d/1Tm0e-mBNrTchN6YlGpvvomUZfy79yOtrTSNHG-l_jFg/edit?usp=sharing)』に関連する以下のリポジトリと組み合わせることによって、植物生体電位を測定することが可能です。
 
 - 植物生体電位解析器 : https://github.com/kiyu-git/Plant-Bioelectric-Potential-Sensor
 - 測定アプリケーション : https://github.com/kiyu-git/-Arduino-Serial-Plot-Recorder
@@ -125,7 +127,7 @@ twitter: https://twitter.com/kyu_yukirinrin
 
 website: https://untamable.work
 
-## Licence
+## License
 
 [GPL-3.0 license](https://github.com/kiyu-git/Plant-Bioelectric-Potential-Sensor/blob/main/LICENSE)
 
