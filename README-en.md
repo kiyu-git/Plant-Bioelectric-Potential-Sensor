@@ -1,4 +1,4 @@
-[日本語](/) | [English](/README-en.md)
+[日本語](https://github.com/kiyu-git/Plant-Bioelectric-Potential-Sensor) | [English](/README-en.md)
 
 # Plant Bioelectric Potential Sensor
 
