@@ -13,7 +13,7 @@
 
 なお、このリポジトリは、『[植物生体電位測定をオープンにするプロジェクト](https://docs.google.com/presentation/d/1Tm0e-mBNrTchN6YlGpvvomUZfy79yOtrTSNHG-l_jFg/edit?usp=sharing)』の一部です。
 
-[こちら](https://kiyu-shop.booth.pm/items/4141049)からプロジェクトへの寄付、PCB 基盤およびパーツのセットの購入ができます。
+[こちら](https://kiyu-shop.booth.pm/items/4141049)からプロジェクトへの寄付、PCB 基板およびパーツのセットの購入ができます。
 継続的なプロジェクト維持のため、ぜひ寄付をお願いいたします。
 
 **電源・ADC モジュール**
@@ -30,67 +30,101 @@
 <img src="./images/device_PCB.JPG"  width="45%"/> <img src="./images/device_modules.JPG"  width="45%"/>
 <img src="./images/device_combine.jpeg"  width="45%"/> <img src="./images/device_with_box.JPG"  width="45%"/>
 
+## Revision history
+
+### v1.0.0
+
+- 最初のモデル
+- [リンク](https://github.com/kiyu-git/Plant-Bioelectric-Potential-Sensor/tree/main/archive/v1.0)
+
+### v1.1.0
+
+- 部品の番号を振り直し
+- [リンク](https://github.com/kiyu-git/Plant-Bioelectric-Potential-Sensor/tree/1f7dd3a86559b1f9ea93b5415610122e70b9b8db)
+
+### v1.1.1
+
+- 信号処理モジュール
+  - 回路図を清書
+  - 一部の抵抗の値を変更
+
 ## Requirement
 
 植物生体電位測定器の組み立てに必要な部品一覧
 
 ※ バージョンによって、パーツの番号が異なります。信号処理モジュールの基板の LED が LED2 と印字されている場合は[こちら](./archive/v1.0/README.md)のパーツ番号を参照してください。
 
-| 測定モジュール |       |                                       |                                                       |
-| -------------- | ----- | ------------------------------------- | ----------------------------------------------------- |
-| Part           | Value | 備考                                  | URL                                                   |
-| C1             | 0.1u  |                                       |                                                       |
-| C2             | 47p   |                                       |                                                       |
-| C3             | 47p   |                                       |                                                       |
-| C4             | 0.1u  |                                       |                                                       |
-| C5             | 0.1u  |                                       |                                                       |
-| IC1            |       | LM324                                 | [参考](https://akizukidenshi.com/catalog/g/gI-14055/) |
-| IC2            |       | LT1167                                | [参考](https://akizukidenshi.com/catalog/g/gI-02789/) |
-| JP1            |       | 5 連 pinheader（背が高いの推奨）      |                                                       |
-| LED            |       | 3mm LED（赤）                         |                                                       |
-| R1             | 50k   | 半固定抵抗                            |                                                       |
-| R2             | 10k   |                                       |                                                       |
-| R3             | 1k    |                                       |                                                       |
-| R4             | 10k   |                                       |                                                       |
-| R5             | 10k   |                                       |                                                       |
-| R6             | 100k  |                                       |                                                       |
-| R7             | 68k   |                                       |                                                       |
-| R8             | 10k   |                                       |                                                       |
-| R9             | 1k    |                                       |                                                       |
-| R10            | 10k   |                                       |                                                       |
-| R11            | 10k   |                                       |                                                       |
-| R12            | 1k    |                                       |                                                       |
-| R13            | 10k   |                                       |                                                       |
-| R14            | 100k  |                                       |                                                       |
-| R15            | 4.7k  |                                       |                                                       |
-| R16            | 50k   | 2 連ボリューム                        | [参考](https://akizukidenshi.com/catalog/g/gP-12578/) |
-| U1             |       | 3.5mm ステレオミニジャック MJ-354W-SG | [参考](https://akizukidenshi.com/catalog/g/gC-15403/) |
+**信号処理モジュール**
 
-| 電源モジュール |       |                                                                                                                                                     |                                                       |
-| -------------- | ----- | --------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------- |
-| Part           | Value | 備考                                                                                                                                                | URL                                                   |
-| C1             | 47u   |                                                                                                                                                     |                                                       |
-| C2             | 0.1u  |                                                                                                                                                     |                                                       |
-| C3             | 47u   |                                                                                                                                                     |                                                       |
-| C4             | 47u   |                                                                                                                                                     |                                                       |
-| C5             | 0.1u  |                                                                                                                                                     |                                                       |
-| DC1            |       | IN 5v/ OUT ±5v DC-DC コンバーター（MAU106）                                                                                                         | [参考](https://akizukidenshi.com/catalog/g/gM-04133/) |
-| JP1            |       | 5 連 pinheader（背が高いの推奨）                                                                                                                    |                                                       |
-| JP2            |       | ※必要なし                                                                                                                                           |                                                       |
-| MODULE         |       | Arduino Nano, [スケッチ](https://github.com/kiyu-git/Plant-Bioelectric-Potential-Sensor/tree/main/Arduino%20Sketch/ADC_Serial_sender_1ch)を書き込む |                                                       |
-| R1             | 10k   |                                                                                                                                                     |                                                       |
-| R2             | 10k   |                                                                                                                                                     |                                                       |
+| Part | device name                | Value / Type | Note                                                                   |
+| ---- | -------------------------- | ------------ | ---------------------------------------------------------------------- |
+| R1   | 半固定抵抗                 | 50k          |                                                                        |
+| R2   | 抵抗                       | 10k          |                                                                        |
+| R3   | 抵抗                       | 1k           |                                                                        |
+| R4   | 抵抗                       | 10k          |                                                                        |
+| R5   | 抵抗                       | 10k          |                                                                        |
+| R6   | 抵抗                       | 100k         |                                                                        |
+| R7   | 抵抗                       | 68k          |                                                                        |
+| R8   | 抵抗                       | 10k          |                                                                        |
+| R9   | 抵抗                       | 1k           |                                                                        |
+| R10  | 抵抗                       | 10k          |                                                                        |
+| R11  | 抵抗                       | 10k          |                                                                        |
+| R12  | 抵抗                       | 1k           |                                                                        |
+| R13  | 抵抗                       | 10k          |                                                                        |
+| R14  | 抵抗                       | 100k         |                                                                        |
+| R15  | 抵抗                       | 4.7k         |                                                                        |
+| R16  | 2 連可変抵抗               | 50k          | [参考](https://akizukidenshi.com/catalog/g/gP-12578/)                  |
+| R16  | ツマミ                     |              |                                                                        |
+| C1   | セラミックコンデンサ       | 0.1u         |                                                                        |
+| C2   | セラミックコンデンサ       | 47p          |                                                                        |
+| C3   | セラミックコンデンサ       | 47p          |                                                                        |
+| C4   | セラミックコンデンサ       | 0.1u         |                                                                        |
+| C5   | セラミックコンデンサ       | 0.1u         |                                                                        |
+| IC1  | オペアンプ                 | LM324        | [参考](https://akizukidenshi.com/catalog/g/gI-14055/)                  |
+| IC1  | IC ソケット                | 14P          |                                                                        |
+| IC2  | 高精度軽装アンプ           | LT1167       | [参考](https://akizukidenshi.com/catalog/g/gI-02789/)                  |
+| IC2  | IC ソケット                | 8P           |                                                                        |
+| JP1  | ピンヘッダ（オス）         | 5P           | 背が高いもの推奨 [参考](https://akizukidenshi.com/catalog/g/gC-09056/) |
+| LED  | 3mm 赤色 LED               |              |                                                                        |
+| U1   | 3.5mm ステレオミニジャック | MJ-354W-SG   | [参考](https://akizukidenshi.com/catalog/g/gC-15403/)                  |
 
-| 測定用銅線 |       |                          |     |
-| ---------- | ----- | ------------------------ | --- |
-| Part       | Value | 備考                     | URL |
-|            |       | 3.5mm ステレオミニプラグ |     |
-|            |       | 銅線（3 本）             |     |
-|            |       | ワニ口クリップ（3 個）   |     |
+**電源・ADC モジュール**
 
-### Box
+| Part   | device name             | Value / Type | Note                                                                                                                                  |
+| ------ | ----------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------- |
+| R1     | 抵抗                    | 10k          |                                                                                                                                       |
+| R2     | 抵抗                    | 10k          |                                                                                                                                       |
+| C1     | 電解コンデンサ          | 47u          |                                                                                                                                       |
+| C2     | セラミックコンデンサ    | 0.1u         |                                                                                                                                       |
+| C3     | 電解コンデンサ          | 47u          |                                                                                                                                       |
+| C4     | 電解コンデンサ          | 47u          |                                                                                                                                       |
+| C5     | セラミックコンデンサ    | 0.1u         |                                                                                                                                       |
+| DC1    | DC-DC コンバータ        | MAU106       | [参考](https://akizukidenshi.com/catalog/g/gM-04133/)                                                                                 |
+| JP1    | ピンヘッダ（メス）      | 5P           |                                                                                                                                       |
+| MODULE | Arduino                 | Nano         | [スケッチ](https://github.com/kiyu-git/Plant-Bioelectric-Potential-Sensor/tree/main/Arduino%20Sketch/ADC_Serial_sender_1ch)を書き込む |
+| MODULE | ピンヘッダ（メス）      | 15P          |                                                                                                                                       |
+| MODULE | ピンヘッダ（メス）      | 15P          |                                                                                                                                       |
+| MODULE | Arduino 用 USB ケーブル |              |                                                                                                                                       |
 
-アクリル厚 2mm で設計
+**測定用ケーブル**
+
+| Device Name              | Value / Type | Need | Note                              |
+| ------------------------ | ------------ | ---- | --------------------------------- |
+| 3.5mm ステレオミニプラグ | MP319        | 1    |                                   |
+| 導線                     | ~ 50cm       | 3    | 赤青黒の 3 色があるとわかりやすい |
+| みの虫クリップ           | small        | 3    | 赤青黒の 3 色があるとわかりやすい |
+| 釘                       |              | 1    | 導電性のもの                      |
+| 電極パッド               |              | 2    | 心電パッドなどを流用              |
+
+**アクリルボックス**
+| Device Name | Value / Type | Need | Note |
+| --- | --- | --- | --- |
+| アクリルパーツ | 2mm 厚 | 1 set | 6 面分 |
+| ナイロンネジ | M2*5mm | 4 | 6mm でも可 底面パネル固定用 |
+| ナイロンネジ | M2*5mm | 4 | 5mm から 12mm で可 上面パネル固定用 |
+| スペーサー | M2*6+6mm | 4 | 底面パネルと信号処理モジュールの間 |
+| スペーサー | M2*15+6mm | 4 | 信号処理モジュールと電源モジュールの間 |
+| スペーサー | M2\*20mm | 4 | 電源モジュールと上面パネルの間 |
 
 ## Usage
 
@@ -111,7 +145,7 @@
 ## Reference
 
 - Forest Symphony: [https://special.ycam.jp/interlab/projects/forestsymphony.html](https://special.ycam.jp/interlab/projects/forestsymphony.html)
-- Pulsum-Plantae: [https://github.com/Lessnullvoid/Pulsum-Plantae](https://github.com/Lessnullvoid/Pulsum-Plantae)
+- LT1167 DataSheet: https://www.analog.com/media/en/technical-documentation/data-sheets/1167fc.pdf
 - [and more...](https://docs.google.com/presentation/d/1Tm0e-mBNrTchN6YlGpvvomUZfy79yOtrTSNHG-l_jFg/edit#slide=id.g148acf8fd66_1_54)
 
 ## Donation
