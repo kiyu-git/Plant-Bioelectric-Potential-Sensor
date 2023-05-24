@@ -133,7 +133,7 @@ This repository is a part of ["Open Plant Bioelectric Potential Measurement Proj
 In combination with the following repositories associated with the project, it is possible to measure plant bioelectric potential.
 
 - Plant Bioelectric Potential Sensor : https://github.com/kiyu-git/Plant-Bioelectric-Potential-Sensor
-- Measurement Application : https://github.com/kiyu-git/-Arduino-Serial-Plot-Recorder
+- Measurement Application : https://github.com/kiyu-git/Arduino-Serial-Plot-Recorder
 - Analyze Application : https://github.com/kiyu-git/Arduino-Sensor-Data-Viewer
 - Automation of lighting : https://github.com/kiyu-git/Arduino-Python-Serial-Control-Example
 
@@ -145,7 +145,7 @@ Example of plant bioelectric potential measurement
 ## Reference
 
 - Forest Symphony: [https://special.ycam.jp/interlab/projects/forestsymphony.html](https://special.ycam.jp/interlab/projects/forestsymphony.html)
-- Pulsum-Plantae: [https://github.com/Lessnullvoid/Pulsum-Plantae](https://github.com/Lessnullvoid/Pulsum-Plantae)
+- LT1167 DataSheet: https://www.analog.com/media/en/technical-documentation/data-sheets/1167fc.pdf
 - [and more...](https://docs.google.com/presentation/d/1Tm0e-mBNrTchN6YlGpvvomUZfy79yOtrTSNHG-l_jFg/edit#slide=id.g148acf8fd66_1_54)
 
 ## Donation
