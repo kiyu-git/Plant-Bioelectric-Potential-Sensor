@@ -73,7 +73,7 @@
 | R13  | 抵抗                       | 10k          |                                                                        |
 | R14  | 抵抗                       | 100k         |                                                                        |
 | R15  | 抵抗                       | 4.7k         |                                                                        |
-| R16  | 2 連可変抵抗               | 50k          | [参考](https://akizukidenshi.com/catalog/g/gP-12578/)                  |
+| R16  | 2 連可変抵抗               | 100k         | [参考](https://akizukidenshi.com/catalog/g/gP-12578/)                  |
 | R16  | ツマミ                     |              |                                                                        |
 | C1   | セラミックコンデンサ       | 0.1u         |                                                                        |
 | C2   | セラミックコンデンサ       | 47p          |                                                                        |

@@ -73,7 +73,7 @@ List of parts required for assembly of Plant Bioelectric Potential Sensor.
 | R13  | resistance                | 10k          |                                                                                |
 | R14  | resistance                | 100k         |                                                                                |
 | R15  | resistance                | 4.7k         |                                                                                |
-| R16  | double potentiometer      | 50k          | [ref.](https://akizukidenshi.com/catalog/g/gP-12578/)                          |
+| R16  | double potentiometer      | 100k         | [ref.](https://akizukidenshi.com/catalog/g/gP-12578/)                          |
 | R16  | knob                      |              |                                                                                |
 | C1   | ceramic capacitors        | 0.1u         |                                                                                |
 | C2   | ceramic capacitors        | 47p          |                                                                                |
