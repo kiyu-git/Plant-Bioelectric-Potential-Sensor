@@ -4,38 +4,25 @@
 
 植物生体電位測定器
 
-![Plant-Bioelectric-Potential-Sensor](/images/Plant-Bioelectric-Potential-Sensor.JPG)
+![Plant-Bioelectric-Potential-Sensor](/images/PlantBioelectricSensor_2.0.jpeg)
 
 ## Overview
 
-開発した植物生体電位測定器の回路図等をまとめています。植物生体電位測定器は電源・ADC モジュールと信号処理モジュールから構成されています。
-信号処理ダイアグラムや設計方針については[こちら](https://docs.google.com/presentation/d/1Tm0e-mBNrTchN6YlGpvvomUZfy79yOtrTSNHG-l_jFg/edit#slide=id.g15184a93673_0_74)にまとまっています。
+開発した植物生体電位測定器の回路図等をまとめています。
 
 なお、このリポジトリは、『[植物生体電位測定をオープンにするプロジェクト](https://docs.google.com/presentation/d/1Tm0e-mBNrTchN6YlGpvvomUZfy79yOtrTSNHG-l_jFg/edit?usp=sharing)』の一部です。
 
 [こちら](https://kiyu-shop.booth.pm/items/4141049)からプロジェクトへの寄付、PCB 基板およびパーツのセットの購入ができます。
 継続的なプロジェクト維持のため、ぜひ寄付をお願いいたします。
 
-**電源・ADC モジュール**
-
-- [回路図](https://github.com/kiyu-git/Plant-Bioelectric-Potential-Sensor/tree/main/Power%20and%20ADC%20Module/images)
-- [Eagle ファイル](https://github.com/kiyu-git/Plant-Bioelectric-Potential-Sensor/tree/main/Power%20and%20ADC%20Module/Eagle)
-
-**信号処理モジュール**
-
-- [回路図](https://github.com/kiyu-git/Plant-Bioelectric-Potential-Sensor/tree/main/Signal%20Processing%20Module/images)
-- [Eagle ファイル](https://github.com/kiyu-git/Plant-Bioelectric-Potential-Sensor/tree/main/Signal%20Processing%20Module/Eagle)
-
-<img src="./Power and ADC Module/images/circuit_power_module.png"  width="45%"/> <img src="./Signal Processing Module/images/circuit_sp_module.png"  width="45%"/>
-<img src="./images/device_PCB.JPG"  width="45%"/> <img src="./images/device_modules.JPG"  width="45%"/>
-<img src="./images/device_combine.jpeg"  width="45%"/> <img src="./images/device_with_box.JPG"  width="45%"/>
+![Plant-Bioelectric-Potential-Sensor-schematic](./schematic.png)
+<img src="./images/植物電位素材_2300-03.jpg"  width="45%"/> <img src="./images/植物電位素材_ユーロブロックピン配置.png"  width="45%"/>
 
 ## Revision history
 
 ### v1.0.0
 
 - 最初のモデル
-- [リンク](https://github.com/kiyu-git/Plant-Bioelectric-Potential-Sensor/tree/main/archive/v1.0)
 
 ### v1.1.0
 
@@ -48,13 +35,24 @@
   - 回路図を清書
   - 一部の抵抗の値を変更
 
+### v2.0
+
+- Arduino シールド規格に合わせ、拡張性を高めた。
+- 回路構成の大幅な変更をおこなった。
+
 ## Requirement
 
 植物生体電位測定器の組み立てに必要な部品一覧
 
-※ バージョンによって、パーツの番号が異なります。信号処理モジュールの基板の LED が LED2 と印字されている場合は[こちら](./archive/v1.0/README.md)のパーツ番号を参照してください。
+**測定基板**
 
-**信号処理モジュール**
+Coming Soon...
+
+しばらくの間は、回路図から読み取ってください
+
+<!-- | Value / Type | Part                | device name | Note                                                                   |
+| ---- | -------------------------- | ------------ | ---------------------------------------------------------------------- |
+| R1   | 半固定抵抗                 | 50k          |                                                                        |
 
 | Part | device name                | Value / Type | Note                                                                   |
 | ---- | -------------------------- | ------------ | ---------------------------------------------------------------------- |
@@ -86,45 +84,17 @@
 | IC2  | IC ソケット                | 8P           |                                                                        |
 | JP1  | ピンヘッダ（オス）         | 5P           | 背が高いもの推奨 [参考](https://akizukidenshi.com/catalog/g/gC-09056/) |
 | LED  | 3mm 赤色 LED               |              |                                                                        |
-| U1   | 3.5mm ステレオミニジャック | MJ-354W-SG   | [参考](https://akizukidenshi.com/catalog/g/gC-15403/)                  |
-
-**電源・ADC モジュール**
-
-| Part   | device name             | Value / Type | Note                                                                                                                                  |
-| ------ | ----------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------- |
-| R1     | 抵抗                    | 10k          |                                                                                                                                       |
-| R2     | 抵抗                    | 10k          |                                                                                                                                       |
-| C1     | 電解コンデンサ          | 47u          |                                                                                                                                       |
-| C2     | セラミックコンデンサ    | 0.1u         |                                                                                                                                       |
-| C3     | 電解コンデンサ          | 47u          |                                                                                                                                       |
-| C4     | 電解コンデンサ          | 47u          |                                                                                                                                       |
-| C5     | セラミックコンデンサ    | 0.1u         |                                                                                                                                       |
-| DC1    | DC-DC コンバータ        | MAU106       | [参考](https://akizukidenshi.com/catalog/g/gM-04133/)                                                                                 |
-| JP1    | ピンヘッダ（メス）      | 5P           |                                                                                                                                       |
-| MODULE | Arduino                 | Nano         | [スケッチ](https://github.com/kiyu-git/Plant-Bioelectric-Potential-Sensor/tree/main/Arduino%20Sketch/ADC_Serial_sender_1ch)を書き込む |
-| MODULE | ピンヘッダ（メス）      | 15P          |                                                                                                                                       |
-| MODULE | ピンヘッダ（メス）      | 15P          |                                                                                                                                       |
-| MODULE | Arduino 用 USB ケーブル |              |                                                                                                                                       |
+| U1   | 3.5mm ステレオミニジャック | MJ-354W-SG   | [参考](https://akizukidenshi.com/catalog/g/gC-15403/)                  | -->
 
 **測定用ケーブル**
 
 | Device Name              | Value / Type | Need | Note                              |
 | ------------------------ | ------------ | ---- | --------------------------------- |
-| 3.5mm ステレオミニプラグ | MP319        | 1    |                                   |
+| ユーロブロックターミナル |              | 1    |                                   |
 | 導線                     | ~ 50cm       | 3    | 赤青黒の 3 色があるとわかりやすい |
 | みの虫クリップ           | small        | 3    | 赤青黒の 3 色があるとわかりやすい |
 | 釘                       |              | 1    | 導電性のもの                      |
 | 電極パッド               |              | 2    | 心電パッドなどを流用              |
-
-**アクリルボックス**
-| Device Name | Value / Type | Need | Note |
-| --- | --- | --- | --- |
-| アクリルパーツ | 2mm 厚 | 1 set | 6 面分 |
-| ナイロンネジ | M2*5mm | 4 | 6mm でも可 底面パネル固定用 |
-| ナイロンネジ | M2*5mm | 4 | 5mm から 12mm で可 上面パネル固定用 |
-| スペーサー | M2*6+6mm | 4 | 底面パネルと信号処理モジュールの間 |
-| スペーサー | M2*15+6mm | 4 | 信号処理モジュールと電源モジュールの間 |
-| スペーサー | M2\*20mm | 4 | 電源モジュールと上面パネルの間 |
 
 ## Usage
 
@@ -165,4 +135,4 @@ website: https://untamable.work
 
 [GPL-3.0 license](https://github.com/kiyu-git/Plant-Bioelectric-Potential-Sensor/blob/main/LICENSE)
 
-※ 商用利用を希望される場合は twitter DM または website よりご連絡いただけると幸いです。
+※ 共同研究や、案件依頼・相談も受け付けております。twitter DM または website よりご連絡ください。
