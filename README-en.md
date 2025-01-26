@@ -62,9 +62,7 @@ Refer to the circuit diagram.
 
 This repository is part of the “[Open Plant Bioelectric Potential Measurement Project](https://open-plant-bioelectric-potential-measurement.vercel.app).”
 
-### Example of Plant Bioelectric Potential Measurement
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/kBemMpVNFAs?si=k8SLGgCpc5z7__u_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+[Example of Plant Bioelectric Potential Measurement (YouTube)](https://www.youtube.com/embed/kBemMpVNFAs?si=k8SLGgCpc5z7__u_)
 
 ## References
 

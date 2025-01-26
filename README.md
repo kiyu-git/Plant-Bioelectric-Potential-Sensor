@@ -66,9 +66,7 @@
 
 このリポジトリは、『[植物生体電位測定をオープンにするプロジェクト](https://open-plant-bioelectric-potential-measurement.vercel.app)』の一部です。
 
-植物生体電位測定の例
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/kBemMpVNFAs?si=k8SLGgCpc5z7__u_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+[植物生体電位測定の例 (YouTube)](https://www.youtube.com/embed/kBemMpVNFAs?si=k8SLGgCpc5z7__u_)
 
 ## Reference
 
